@@ -3,7 +3,7 @@ Python code of the ODYM-RECC Copper model (DOI will be added when published)
 
 Resources Conservation and Recycling 
 
-Sector-level estimates for global future copper demand and the potential for resource
+###Sector-level estimates for global future copper demand and the potential for resource
 efficiency
 
 Stefanie Klose1* and Stefan Pauliuk1
