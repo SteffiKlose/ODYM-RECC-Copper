@@ -1,5 +1,5 @@
 ### ODYM-RECC Copper
-Python code of the ODYM-RECC Copper model (DOI will be added when published)
+Python code of the ODYM-RECC Copper model (https://doi.org/10.1016/j.resconrec.2023.106941)
 
 Resources Conservation and Recycling 
 
