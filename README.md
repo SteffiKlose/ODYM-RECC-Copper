@@ -15,5 +15,7 @@ This paper comes with a supplementary file, the code achieve on github, and supp
 To run the model, one 
 
 1) needs to extract the data folder from ZENODO and copy its content to a convenient location. 
-2) save the following excel files RECC-Classifications_Master_V2.0 and RECC_Config from this github repository in a convenient location.
-3) save the python scripts from this repo in the same location
+2) save the following excel files RECC-Classifications_Master_V2.0 and RECC_Config from this github repository in the same folder as your data.
+3) save the python scripts from this repo in a convenient location
+4) Enter the respective paths in the RECC_Paths.py file
+5) Specify in the RECC_Config file which Sectors (l. 198) you want to model. Specify the goods (l. 29) and Manufacturing processes (l. 27) accordingly. The Config_Sandbox sheet in the RECC_Config file gives you the numbers of the goods in the different sectors as specified in the RECC_Classifications_Master_V2.0
