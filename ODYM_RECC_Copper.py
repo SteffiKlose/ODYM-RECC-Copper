@@ -1642,14 +1642,6 @@ if main==1:
     
     
     
-    # plt.plot(Stock_Detail_UsePhase_p.sum(axis=1).sum(axis=1).sum(axis=1))
-    # plt.plot(TotalStock_UsePhase_Hist_cpr[:,:,:].sum(axis=1).sum(axis=1))
-    
-    
-    # plt.plot(Outflow_Detail_UsePhase_p.sum(axis=1).sum(axis=1).sum(axis=1))
-    # plt.plot(Inflow_Detail_UsePhase_p.sum(axis=1).sum(axis=1))
-    
-    # plt.plot(RECC_System.ParameterDict['2_S_RECC_FinalProducts_Future_passvehicles'].Values[2,:,Sector_pav_loc,:].sum(axis=1))
             if 'otv' in SectorList:
   
                 
@@ -2389,12 +2381,7 @@ if main==1:
             else:  
                 Par_RECC_CollectionRate  = RECC_System.ParameterDict['4_PY_CollectionRate'].Values[:,:]
 
-            
-          
-    
-    
-            Par_RECC_Informal =RECC_System.ParameterDict['4_PY_ScraprecovInformal'].Values[:]
-            
+           
             
     
     
@@ -4352,35 +4339,8 @@ if main==1:
      
 
 
-    
-
-    # ws_Cu_9 = book.create_sheet('App stoock')
-    # ColLabels = ['Indicator','Unit','Region','Product group','System_location','SocEc scen','ClimPol scen']
-    # for m in range(0,len(ColLabels)):
-    #     ws_Cu_9.cell(row=1, column=m+1).value = ColLabels[m]
-    #     ws_Cu_9.cell(row=1, column=m+1).font  = openpyxl.styles.Font(bold=True)
-    # for n in range(m+1,m+1+90):
-    #     ws_Cu_9.cell(row=1, column=n+1).value = int(IndexTable.Classification[IndexTable.index.get_loc('Cohort')].Items[n-m-1+70])
-    #     ws_Cu_9.cell(row=1, column=m+1).font  = openpyxl.styles.Font(bold=True)
-  
-
-
-    # if 'app' in SectorList or 'inf' in SectorList or 'nrbg' in SectorList:
-
-    #     for mm in range(0,Na):
-    #             newrowoffset_Cu_sortingRate = msf.xlsxExportAdd_tAB(ws_Cu_9, StockCurves_UsePhase_appliances_NS_NR[70:,mm,0,:,:] ,2+mm*6,len(ColLabels),'Stock','years',ScriptConfig['RegionalScope'],IndexTable.Classification[IndexTable.set_index('IndexLetter').index.get_loc('O')].Items[mm],'S_11',IndexTable.Classification[IndexTable.index.get_loc('Scenario')].Items,IndexTable.Classification[IndexTable.index.get_loc('Scenario_RCP')].Items)
-     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
+ 
 
 
     ws_Cu_10 = book.create_sheet('Outflow')
@@ -4424,16 +4384,6 @@ if main==1:
             for mm in range(0,NI):
                 newrowoffset_Cu_sortingRate = msf.xlsxExportAdd_tAB(ws_Cu_11, StockCurves_UsePhase_industry_NS_NR[70:,mm,l,:,:] ,2+mm*6+(NI*6)*l,len(ColLabels),IndexTable.Classification[IndexTable.set_index('IndexLetter').index.get_loc('l')].Items[l],'years',ScriptConfig['RegionalScope'],IndexTable.Classification[IndexTable.set_index('IndexLetter').index.get_loc('I')].Items[mm],'S_11',IndexTable.Classification[IndexTable.index.get_loc('Scenario')].Items,IndexTable.Classification[IndexTable.index.get_loc('Scenario_RCP')].Items)
      
-
-
-
-
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmBrS[:,6,:,:,2].mean(axis=1).mean(axis=1))
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmprS[:,6,:,:,2].mean(axis=1).mean(axis=1))
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmNrS[:,6,:,:,2].mean(axis=1).mean(axis=1))
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmaS[:,6,:,2].mean(axis=1))
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmiS[:,6,:,2].mean(axis=1))
-            # plt.plot(np.arange(0,46)+2015,ReUseFactor_tmIS[:,6,:,2].mean(axis=1))
 
 
 
