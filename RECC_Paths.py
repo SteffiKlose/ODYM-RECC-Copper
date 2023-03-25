@@ -1,5 +1,5 @@
 '''
-This is the ODYm-RECC Copper model path file. RECC will use the paths specified here to search for the necessary data and modules.
+This is the ODYM-RECC Copper model path file. RECC will use the paths specified here to search for the necessary data and modules.
 '''
 
 ### Start of path file ###
