@@ -1,16 +1,16 @@
 ﻿# -*- coding: utf-8 -*-
 """
-Created on February 21, 2020, as copy of ODYM_RECC_V2_3.py
+Created on February 21, 2020, based on ODYM_RECC_V2_5.py by spauliuk
 
-@authors: spauliuk
+@authors: sklose
 """
 
 """
-File ODYM_RECC_Main.py
+File ODYM_RECC-Copper.py
 
-Contains the ODYM-RECC model v 2.5 for the resource efficiency climate change mitigation nexus
-Model version 2_5: Global coverage of five sectors.
-passenger vehicles, residential buildings, non-residential buildings, electricity generation, and appliances.
+Contains the ODYM-RECC Copper model for the Sector-level estimates for global future copper demand and the potential for resource efficiency
+Global coverage of six sectors.
+passenger vehicles and other vehicle types, residential buildings, non-residential buildings, industry, appliances, and infrastructure.
 
 dependencies:
     numpy >= 1.9
